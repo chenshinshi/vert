@@ -247,7 +247,7 @@
         opacity: 1;	background-position: center;
 	background-attachment: fixed;
 }
-.b3-typography img, .protyle-wysiwyg img {
+.b3-typography img:not(.emoji), .protyle-wysiwyg img:not(.emoji) {
     box-shadow: 0 1px 10px black, 0 0 0 2px #8170b0;
     border: 3px solid #181124;
 }
@@ -433,7 +433,7 @@ padding-bottom:6px;
 .b3-menu__separator{background-color:#95408b2b}
 .b3-menu{box-shadow:0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12),0px 4px 0px #95408b inset,4px 0px 0px #95408b,14px 0px 0px var(--b3-menu-background) ;border-top:10px solid var(--b3-menu-background);border-right:0px;border-bottom:0px;border-left:0px}
 .b3-menu__submenu{border:0px;border-top:4px solid #95408b;box-shadow:13px 8px 15px -7px rgba(0, 0, 0, 0.2), 14px 16px 38px 3px rgba(0, 0, 0, 0.14), 11px 7px 46px 8px rgba(0, 0, 0, 0.12)}
-.config__tab-container .fn__flex-1{overflow:hidden}
+/*.config__tab-container .fn__flex-1{overflow:hidden}*/
 
 .b3-typography code:not(.hljs), .b3-typography span[data-type~=code], .protyle-wysiwyg code:not(.hljs), .protyle-wysiwyg span[data-type~=code]{background-color:#974d7a;margin-inline:4px;padding:1px 0.4em;position:relative;top:-1.5px;font-family:var(--b3-font-family)}
 .tooltip{border:2px solid #b2e2fe;box-shadow:0 0 5px black}
