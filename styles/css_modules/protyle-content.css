@@ -1,0 +1,61 @@
+/* 内容区标题颜色 */
+.protyle-content .protyle-title__input {
+  color: #d26ace;
+}
+
+/* h1 ～ h3 标题颜色及宽度 */
+.protyle-content :is(.h1, .h2, .h3) {
+  width: fit-content;
+  color: #957cf7;
+}
+
+/* 编辑区阴影配置 */
+.layout-tab-container > .protyle > .protyle-content {
+  box-shadow: inset 0 0 10px #000;
+}
+
+/* 大纲线颜色 */
+.protyle-content .protyle-wysiwyg [data-node-id].li>[data-node-id].list:before {
+  width: 2px;
+  top: -4px;
+  background-color: #904e7450;
+  border-color: #6d3b58;
+}
+.protyle-content .protyle-action svg {
+  color: #7c6cab;
+}
+
+/* 标签 */
+.protyle-content .p span[data-type='tag'] {
+  border: none;
+  padding: 5px 8px;
+  border-radius: 0px;
+  background: #22212c;
+  box-shadow:  1px 1px 3px #09080b,
+              -1px -1px 3px #3a3947;
+}
+
+/* 引用 */
+.protyle-content .bq {
+  border-left-color: #957cf7;
+  background-color: #957cf720;
+}
+
+/* 代码块 */
+.protyle-content .p code {
+  background-color: #00000070;
+}
+.code-block :is(.hljs.protyle-linenumber, .protyle-linenumber__rows) {
+  background-color: #00000070;
+}
+.code-block .protyle-linenumber__rows span::before {
+  color: #55e56f;
+}
+
+/* 面包屑文字颜色 */
+.protyle-breadcrumb :is(span, svg) {
+  color: #9a7bff !important;
+}
+:is(.b3-tooltips, .protyle-breadcrumb__item):hover :is(svg) {
+  color:  #47ffeb !important;
+}

@@ -1,0 +1,14 @@
+/* 全局字体引入 */
+@font-face {
+   font-family:'Ark Pixel';
+  src: url('./../fonts/ark-pixel-zh__cn.ttf');
+}
+@font-face {
+   font-family:'Fusion Pixel';
+  src: url('./../fonts/fusion-pixel.ttf');
+}
+@font-face {
+   font-family:'SerenityOS-Emoji';
+  src: url('./../fonts/SerenityOS-Emoji.ttf');
+}
+

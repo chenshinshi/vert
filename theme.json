@@ -1,0 +1,18 @@
+{
+  "name":   "vert",
+  "author": "luckypet",
+  "url":    "https://github.com/chenshinshi/vert",
+  "version": "1.2.0",
+  "displayName": {
+    "default": "vert"
+  },
+  "description": {
+    "default": "像素风格花哨主题"
+  },
+  "readme": {
+    "default": "README.md"
+  },
+  "modes": [
+    "dark"
+  ]
+}

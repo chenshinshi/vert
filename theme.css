@@ -1,0 +1,8 @@
+@import url('styles/css_modules/bug-fix.css');@import url('styles/css_modules/font-config.css');@import url('styles/css_modules/protyle-content.css');@import url('styles/css_modules/root-config.css');@import url('styles/css_modules/svg-icon.css');
+
+.protyle-breadcrumb__arrow {
+    width: 0px;
+    transform: rotate(25deg);
+    border-left:2px solid var(--b3-theme-on-surface-light);
+}
+.og-fake-doc-breadcrumb-arrow{color:transparent !important;width:0px !important;}
