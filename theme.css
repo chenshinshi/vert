@@ -1,17 +1,2 @@
 @import url('styles/css_modules/bug-fix.css');@import url('styles/css_modules/font-config.css');@import url('styles/css_modules/protyle-content.css');@import url('styles/css_modules/root-config.css');@import url('styles/css_modules/svg-icon.css');
 
-.protyle-breadcrumb__arrow {
-    width: 0px;
-    transform: rotate(25deg);
-    border-left:2px solid var(--b3-theme-on-surface-light);
-}
-.og-fake-doc-breadcrumb-arrow{color:transparent !important;width:0px !important;}
-
-.b3-typography:not(.b3-typography--default), .protyle-wysiwyg, .protyle-title, .protyle-title__input{font-family:var(--b3-font-family) !important}
-
-.status__msg{color:cyan;opacity:.8}
-
-.av__header .layout-tab-bar{animation:unset;border-bottom-color:var(--b3-theme-primary)}
-.av__panel .b3-menu__item .b3-menu__action[data-type="close"],.av__panel .b3-menu__item .b3-menu__action[data-type="close"]:hover{opacity:0 !important;cursor:default}
-.av__panel .b3-menu__item[data-type="nobg"]{cursor:default}
-.b3-dialog__header{border:2px solid #7b6eab;border-bottom:none}
